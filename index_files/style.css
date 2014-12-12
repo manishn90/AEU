@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(bg.png) repeat;
+}
+
+/*
+#hero {
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+  height: 614px;
+  background: url(images/shine.png) top center;
+}
+*/
+
+.wrap {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+#logo {
+  margin: 21px auto 0;
+  text-align: center;
+}
+
+#logo img {
+  width: 566px;
+  height: 115px;
+}
+
+#google {
+  margin: 0 auto;
+  width: 509px;
+  height: 440px;
+  background: url(ui.png);
+  background-size: 509px 440px;
+}
+
+#content {
+  margin: 30px auto 0;
+  padding: 20px 30px 15px;
+  z-index: 2;
+  width: 580px;
+  background-color: white;
+  border: 3px solid #000;
+}
+
+#continue {
+  margin: 30px auto 40px;
+  width: 142px;
+  height: 77px;
+  background: url(continue.png);
+  background-size: 142px 77px;
+}
+
+h1 {
+  margin: 0 0 16px 0;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  margin: 24px 0 0 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 16px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222;
+}
+
+.gray {
+  font-size: 14px;
+  line-height: 21px;
+
+  font-style: italic;
+  color: #999;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+li {
+  margin: 0 0 0 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
